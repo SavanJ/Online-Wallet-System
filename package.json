@@ -1,16 +1,15 @@
 {
-  "name": "Online Wallet System",
+  "name": "online-wallet",
   "version": "1.0.0",
-  "description": "Node.js",
+  "description": "Complete Node.js Guide",
   "main": "index.js",
   "engines": {
     "node": "10.15.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "",
-    "start-server": "node index.js",
-    "start:dev": "nodemon index.js"
+    "start": "node index.js",
+    "start-server": "node index.js"
   },
   "author": "savan",
   "license": "ISC",
