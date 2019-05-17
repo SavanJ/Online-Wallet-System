@@ -1,0 +1,70 @@
+
+<%- include('includes/head.ejs') %>
+
+  </head>
+  <body>
+    
+
+<%- include('includes/transaction-navigation.ejs') %>
+
+<br><br>
+<div class=container>
+<table class="table table-hover">
+  	
+  	<tr>
+  		<th> Date </th>
+  		<tH> Expense Amount </th>
+  		<tH> Description </th>
+      <tH> Add Amount </th>
+  	</tr>
+
+  	<% if (prods.length > 0) { %>
+      <% var sum=total=0; %>
+  		<% for (let item of prods) 
+      { %>
+        
+		  	<tr>
+		  		<td> <%= item.date %> </td>
+		  		<td> <%= item.expense %> </td>
+		  		<td> <%= item.desc %> </td>
+          <td> <%= item.add %> </td>
+		  	</tr>
+    
+        <% if(item.expense) {sum = parseInt(sum) + parseInt(item.expense); }%>
+        <% if(item.add) {total = parseInt(total) + parseInt(item.add); }%>
+
+		<% } %>
+
+        </table>
+        <br>
+        <hr><hr>
+        <br>
+        <table class="table table-hover">
+        
+        <tr>
+          <th> Total Balance </th>
+          <th> <b> Total Expendiure </b></th>  
+          <th> <b> Current Balance </b></th>  
+        </tr>    
+        <tr>
+            <td > <b><%= total %> </b></td>
+            <td> <b><%= sum %> </b></td>
+            <td> <b><%= parseInt(total) - parseInt(sum) %> </b></td>
+        </tr>
+        </table>
+
+
+
+	<% } 
+
+	else 
+	{ %>
+
+        <h1>No Transactions Found Found!</h1>
+
+    <% } %>
+
+
+</div>
+
+<%- include('includes/transaction-end.ejs') %>

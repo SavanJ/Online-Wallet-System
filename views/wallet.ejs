@@ -1,0 +1,52 @@
+
+<%- include('includes/head.ejs') %>
+
+  </head>
+  <body>
+    
+
+<%- include('includes/navigation.ejs') %>
+
+
+      <div class="col-md-8" style="" >
+        <form action="/wallet" method="POST" >
+        
+          <div class="col-md-12">
+            <textarea class="form-control" name=description rows="5" style="" placeholder="Description ......"></textarea>
+          </div>
+          <div class="col-md-4"><br>
+            <input type="date" name=date class="form-control">
+          </div>
+          <div class="col-md-4"><br>
+            <input type="number" name=expense_amount class="form-control" placeholder="Expense Amount">
+          </div>
+          <div class="col-md-4"><br>
+            <button type="submit" class="btn btn-success form-control"> Calculate </button>
+          </div>
+
+        
+      </div>
+
+      <div class="col-md-4" style="">
+        
+          <div class="block1">
+            <div class="col-md-12">
+              <form class="form-inline">
+                <div class="form-group">
+                  <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+                  <div class="input-group">
+                    <div class="input-group-addon">$</div>
+                    <input type="text" class="form-control" name=add_amount id="exampleInputAmount" placeholder="Amount">
+                    <div class="input-group-addon">.00</div>
+                  </div>
+                </div>        
+            </div>
+
+            </form>
+          </div>
+      </div>
+
+
+
+<%- include('includes/end.ejs') %>
+    

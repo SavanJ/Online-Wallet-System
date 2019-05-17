@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29e5e7b1-6465-429e-af34-3aaa7d156850" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/paytm-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/sbi-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/wallet-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/paytm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sbi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/wallet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/paytm-product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/sbi-product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/wallet-product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/flora.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/humanity.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/jquery.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/redmond.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/smoothness.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-black-tie.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-blitzer.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-cupertino.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-dark-hive.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-dot-luv.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-eggplant.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-excite-bike.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-flick.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-hot-sneaks.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-humanity.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-le-frog.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-mint-choc.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-overcast.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-pepper-grinder.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-redmond.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-smoothness.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-south-street.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-start.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-sunny.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-swanky-purse.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-trontastic.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-ui-darkness.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-ui-lightness.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui-vader.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ui.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/404.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/add-product.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/edit-product.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/products.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/bootstrap_sample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/flora.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/humanity.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/jquery.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/redmond.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/smoothness.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-black-tie.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-blitzer.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-cupertino.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-dark-hive.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-dot-luv.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-eggplant.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-excite-bike.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-flick.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-hot-sneaks.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-humanity.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-le-frog.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-mint-choc.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-overcast.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-pepper-grinder.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-redmond.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-smoothness.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-south-street.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-start.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-sunny.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-swanky-purse.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-trontastic.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-ui-darkness.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-ui-lightness.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui-vader.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css/ui.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/includes/end.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/includes/head.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/includes/navigation.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/includes/transaction-end.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/includes/transaction-navigation.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-am.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-ar-DZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-ar-EG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-de-CH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-en-AU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-en-GB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-en-NZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-es-AR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-es-PE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-fr-CH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-gu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-hi-IN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-hy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-me-ME.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-mt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-nl-BE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-rm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-sr-SR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-ta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-ur.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-zh-HK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick-zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick.ext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick.ext.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick.ext.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick.lang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick.lang.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick.lang.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick.validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick.validation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.datepick.validation.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/jquery.plugin.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/paytm.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/sbi.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop/cart.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop/checkout.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop/orders.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop/product-detail.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop/product-list.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/view-products.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/wallet.ejs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29e5e7b1-6465-429e-af34-3aaa7d156850" name="Default Changelist" comment="" />
+      <created>1558085440071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558085440071</updated>
+      <workItem from="1558085478909" duration="143000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="143000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496112" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
