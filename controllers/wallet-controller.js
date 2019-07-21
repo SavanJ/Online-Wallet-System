@@ -1,5 +1,6 @@
 const Product = require('../models/wallet-product');
 
+
 exports.getAddProduct = (req, res, next) => {
   res.render('wallet', {
     pageTitle: 'Wallet',
@@ -11,6 +12,7 @@ exports.getAddProduct = (req, res, next) => {
 };
 
 exports.postAddProduct = (req, res, next) => {
+  
   const date = req.body.date;
   const desc = req.body.description;
   const expense = req.body.expense_amount;
